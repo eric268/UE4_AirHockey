@@ -1,0 +1,990 @@
+﻿Log file open, 01/18/21 12:12:02
+LogInit: Display: Running engine for game: Air Hockey
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.199457
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz, GPU: NVIDIA GeForce GTX 1660 SUPER
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: F:/UE4/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Engine.ini]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Engine.ini]
+[2021.01.18-17.12.02:802][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Engine.ini]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Engine.ini]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.18-17.12.02:802][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Engine.ini]
+[2021.01.18-17.12.02:802][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Engine.ini]
+[2021.01.18-17.12.02:809][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:809][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.18-17.12.02:809][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.18-17.12.02:809][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:809][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.18-17.12.02:809][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:809][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.18-17.12.02:809][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.18-17.12.02:809][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.18-17.12.02:809][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.18-17.12.02:809][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.18-17.12.02:809][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.18-17.12.02:809][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.18-17.12.02:809][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.18-17.12.02:809][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.18-17.12.02:809][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.18-17.12.02:810][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.18-17.12.02:811][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.18-17.12.02:811][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.18-17.12.02:811][  0]LogHAL: Display: Platform has ~ 16 GB [17060343808 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.18-17.12.02:811][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.18-17.12.02:811][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.18-17.12.02:811][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.18-17.12.02:812][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Config/Windows/Engine.ini]
+[2021.01.18-17.12.02:812][  0]LogInit: Computer: MLBH
+[2021.01.18-17.12.02:812][  0]LogInit: User: eric
+[2021.01.18-17.12.02:812][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.01.18-17.12.02:812][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.18-17.12.02:813][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.01.18-17.12.02:813][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.18-17.12.02:813][  0]LogMemory: Process Physical Memory: 115.85 MB used, 115.86 MB peak
+[2021.01.18-17.12.02:813][  0]LogMemory: Process Virtual Memory: 97.28 MB used, 97.28 MB peak
+[2021.01.18-17.12.02:813][  0]LogMemory: Physical Memory: 7702.66 MB used,  8567.35 MB free, 16270.01 MB total
+[2021.01.18-17.12.02:813][  0]LogMemory: Virtual Memory: 5166.68 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2021.01.18-17.12.02:818][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.18-17.12.02:851][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.18-17.12.02:852][  0]LogInit: Using OS detected language (en-US).
+[2021.01.18-17.12.02:852][  0]LogInit: Using OS detected locale (en-US).
+[2021.01.18-17.12.02:854][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.01.18-17.12.03:020][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.18-17.12.03:053][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.18-17.12.03:053][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.18-17.12.03:199][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.18-17.12.03:199][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.18-17.12.03:199][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.18-17.12.03:199][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.18-17.12.03:288][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 SUPER' (Feature Level 11_0)
+[2021.01.18-17.12.03:288][  0]LogD3D11RHI:       5991/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.18-17.12.03:290][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.18-17.12.03:290][  0]LogD3D11RHI:       0/0/8135 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.18-17.12.03:290][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.18-17.12.03:299][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.18-17.12.03:299][  0]LogD3D11RHI:     GPU DeviceId: 0x21c4 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.18-17.12.03:299][  0]LogWindows: EnumDisplayDevices:
+[2021.01.18-17.12.03:299][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 SUPER' (P:1 D:1)
+[2021.01.18-17.12.03:300][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:1)
+[2021.01.18-17.12.03:301][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2021.01.18-17.12.03:301][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 SUPER' (P:0 D:0)
+[2021.01.18-17.12.03:301][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.01.18-17.12.03:301][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 SUPER
+[2021.01.18-17.12.03:301][  0]LogD3D11RHI:   Driver Version: 446.14 (internal:26.21.14.4614, unified:446.14)
+[2021.01.18-17.12.03:302][  0]LogD3D11RHI:      Driver Date: 5-15-2020
+[2021.01.18-17.12.03:302][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2021.01.18-17.12.03:374][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.01.18-17.12.03:374][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.18-17.12.03:374][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.01.18-17.12.03:406][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.18-17.12.03:758][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.18-17.12.03:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.18-17.12.03:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.18-17.12.03:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.18-17.12.03:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.18-17.12.03:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.18-17.12.03:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.18-17.12.03:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.18-17.12.03:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.18-17.12.03:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.18-17.12.03:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.18-17.12.03:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.18-17.12.03:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.18-17.12.03:812][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.18-17.12.03:821][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.18-17.12.03:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.18-17.12.03:839][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.18-17.12.03:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.18-17.12.03:856][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.18-17.12.03:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.18-17.12.03:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.18-17.12.03:890][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.18-17.12.03:910][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.18-17.12.03:910][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.18-17.12.03:920][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.18-17.12.03:929][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.18-17.12.03:938][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.18-17.12.03:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.18-17.12.03:949][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.18-17.12.03:957][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.18-17.12.04:012][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Intermediate/Shaders/WorkingDirectory/22644/).
+[2021.01.18-17.12.04:013][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/eric/AppData/Local/Temp/UnrealShaderWorkingDir/EB5447EF4464A217A6DEA9BBF866A484/'.
+[2021.01.18-17.12.04:013][  0]LogXGEController: Cleaning working directory: C:/Users/eric/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.01.18-17.12.04:013][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.18-17.12.04:013][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.18-17.12.04:013][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.18-17.12.04:834][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.18-17.12.04:890][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/eric/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.18-17.12.04:890][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/eric/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.18-17.12.04:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.18-17.12.04:890][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.18-17.12.04:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.18-17.12.04:890][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.18-17.12.04:900][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.18-17.12.04:900][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.18-17.12.04:900][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.18-17.12.04:901][  0]LogDerivedDataCache: Using Local data cache path C:/Users/eric/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.18-17.12.04:901][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.18-17.12.04:901][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.18-17.12.04:955][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.18-17.12.04:955][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.18-17.12.04:978][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2021.01.18-17.12.05:203][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.18-17.12.05:317][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.18-17.12.05:317][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.18-17.12.05:317][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.18-17.12.05:317][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.18-17.12.05:317][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.18-17.12.05:335][  0]LogNetVersion: Air Hockey 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4027180301)
+[2021.01.18-17.12.05:729][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001FC1A7914C0), frame # 0
+[2021.01.18-17.12.05:729][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC1A6E0F40), frame # 0
+[2021.01.18-17.12.05:730][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC1A725E00), frame # 0
+[2021.01.18-17.12.05:770][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.034064 seconds
+[2021.01.18-17.12.05:775][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.01.18-17.12.05:775][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.01.18-17.12.05:775][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.18-17.12.06:089][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.18-17.12.06:093][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.18-17.12.06:164][  0]SourceControl: Source control is disabled
+[2021.01.18-17.12.06:164][  0]SourceControl: Source control is disabled
+[2021.01.18-17.12.06:167][  0]SourceControl: Source control is disabled
+[2021.01.18-17.12.06:169][  0]SourceControl: Source control is disabled
+[2021.01.18-17.12.06:177][  0]SourceControl: Source control is disabled
+[2021.01.18-17.12.06:412][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.18-17.12.06:432][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.18-17.12.06:432][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.18-17.12.06:478][  0]LogOcInput: OculusInput pre-init called
+[2021.01.18-17.12.06:489][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.01.18-17.12.06:489][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.01.18-17.12.06:548][  0]LogEngine: Initializing Engine...
+[2021.01.18-17.12.06:549][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.18-17.12.06:549][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.01.18-17.12.06:550][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.18-17.12.06:673][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.18-17.12.06:680][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.18-17.12.06:680][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC1CC34600), frame # 0
+[2021.01.18-17.12.06:680][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC1CC4D800), frame # 0
+[2021.01.18-17.12.06:706][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-17.12.06:706][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-17.12.06:706][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-17.12.06:706][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-17.12.06:706][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-17.12.06:706][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-17.12.06:706][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-17.12.06:706][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-17.12.06:707][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-17.12.06:707][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-17.12.06:723][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-17.12.06:723][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-17.12.06:782][  0]LogAudioMixer: Display: Using Audio Device Dell AW2720HF (NVIDIA High Definition Audio)
+[2021.01.18-17.12.06:787][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-17.12.06:789][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-17.12.06:789][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-17.12.06:791][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-17.12.06:791][  0]LogInit: FAudioDevice initialized.
+[2021.01.18-17.12.06:792][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.18-17.12.07:362][  0]LogDerivedDataCache: Saved boot cache 0.57s 75MB C:/Users/eric/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.18-17.12.07:366][  0]LogInit: Texture streaming: Enabled
+[2021.01.18-17.12.07:382][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.18-17.12.07:382][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.18-17.12.07:384][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.18-17.12.07:433][  0]LogInit: Transaction tracking system initialized
+[2021.01.18-17.12.07:453][  0]BlueprintLog: New page: Editor Load
+[2021.01.18-17.12.07:515][  0]LocalizationService: Localization service is disabled
+[2021.01.18-17.12.07:644][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.18-17.12.07:645][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.18-17.12.07:763][  0]LogFileCache: Scanning file cache for directory 'F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Content/' took 0.00s
+[2021.01.18-17.12.07:946][  0]SourceControl: Source control is disabled
+[2021.01.18-17.12.07:947][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.305
+[2021.01.18-17.12.07:947][  0]Cmd: MAP LOAD FILE="../../../../../Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Content/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.18-17.12.07:947][  0]LightingResults: New page: Lighting Build
+[2021.01.18-17.12.07:947][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-17.12.07:948][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-17.12.07:948][  0]MapCheck: New page: Map Check
+[2021.01.18-17.12.07:948][  0]LightingResults: New page: Lighting Build
+[2021.01.18-17.12.07:959][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FC1CC34600), frame # 0
+[2021.01.18-17.12.07:959][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FC1CC4D800), frame # 0
+[2021.01.18-17.12.07:960][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.01.18-17.12.08:191][  0]LogAIModule: Creating AISystem for world MainLevel
+[2021.01.18-17.12.08:191][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FC0D465C00), frame # 0
+[2021.01.18-17.12.08:191][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FC0D16A200), frame # 0
+[2021.01.18-17.12.08:195][  0]LogPhysics: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Ice_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.247 Y=2.191 Z=0.000
+[2021.01.18-17.12.08:195][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.01.18-17.12.08:195][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.01.18-17.12.08:198][  0]LogPhysics: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Goal_2.w has a component set to zero, which will result in a bad body instance. Scale:X=1.269 Y=0.775 Z=0.000
+[2021.01.18-17.12.08:208][  0]LogPhysics: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Ice_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.247 Y=2.191 Z=0.000
+[2021.01.18-17.12.08:208][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.01.18-17.12.08:208][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.01.18-17.12.08:208][  0]LogPhysics: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Ice_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.247 Y=2.191 Z=0.000
+[2021.01.18-17.12.08:208][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.01.18-17.12.08:208][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.01.18-17.12.08:223][  0]LogPhysics: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Goal_2.w has a component set to zero, which will result in a bad body instance. Scale:X=1.269 Y=0.775 Z=0.000
+[2021.01.18-17.12.08:225][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.18-17.12.08:240][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.01.18-17.12.08:240][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.18-17.12.08:240][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.114ms to complete.
+[2021.01.18-17.12.08:240][  0]LogFileHelpers: Loading map 'MainLevel' took 0.293
+[2021.01.18-17.12.08:242][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.600
+[2021.01.18-17.12.08:364][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-17.12.08:372][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-17.12.08:379][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-17.12.08:387][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-17.12.08:393][  0]LogCollectionManager: Loaded 0 collections in 0.000720 seconds
+[2021.01.18-17.12.08:407][  0]LogFileCache: Scanning file cache for directory 'F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Saved/Collections/' took 0.00s
+[2021.01.18-17.12.08:407][  0]LogFileCache: Scanning file cache for directory 'F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Content/Developers/eric/Collections/' took 0.00s
+[2021.01.18-17.12.08:407][  0]LogFileCache: Scanning file cache for directory 'F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Content/Collections/' took 0.00s
+[2021.01.18-17.12.08:407][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3427 classes and 821 folders.
+[2021.01.18-17.12.08:409][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.18-17.12.08:448][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.01.18-17.12.08:449][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.01.18-17.12.08:466][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.18-17.12.08:467][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.18-17.12.08:472][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.18-17.12.08:551][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.01.18-17.12.08:612][  0]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.18-17.12.08:692][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.18-17.12.08:692][  0]LogLoad: (Engine Initialization) Total time: 7.05 seconds
+[2021.01.18-17.12.08:692][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.18-17.12.08:727][  0]LogAssetRegistry: Asset discovery search completed in 3.7490 seconds
+[2021.01.18-17.12.08:731][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.01.18-17.12.08:732][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.18-17.12.14:468][629]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.01.18-17.12.30:470][629]LogMainFrame: Project does not require temp target
+[2021.01.18-17.12.30:479][629]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UE4Game-Win64-Shipping.target
+[2021.01.18-17.12.30:604][637]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2021.01.18-17.12.30:826][663]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject="F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Air Hockey.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey/Air Hockey.uproject" -cook -stage -archive -archivedirectory="F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey" -package -ue4exe=F:\UE4\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe -pak -prereqs -nodebuginfo -targetplatform=Win64 -clientconfig=Shipping -utf8output
+[2021.01.18-17.12.32:505][857]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for F:\Perforce\Eric.Galway_GBC\Eric.Galway\Air Hockey\Air Hockey.uproject
+[2021.01.18-17.12.32:874][899]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2021.01.18-17.12.32:884][900]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project F:\Perforce\Eric.Galway_GBC\Eric.Galway\Air Hockey\Air Hockey.uproject
+[2021.01.18-17.12.32:884][900]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is F:\UE4\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2021.01.18-12.12.32.txt
+[2021.01.18-17.12.32:884][900]UATHelper: Packaging (Windows (64-bit)): Running: F:\UE4\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe "F:\Perforce\Eric.Galway_GBC\Eric.Galway\Air Hockey\Air Hockey.uproject" -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -unversioned -abslog=F:\UE4\UE_4.25\Engine\Programs\AutomationTool\Saved\Cook-2021.01.18-12.12.32.txt -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2021.01.18-17.12.33:348][953]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Running engine for game: Air Hockey
+[2021.01.18-17.12.34:710][113]UATHelper: Packaging (Windows (64-bit)):   LogHAL: Display: Platform has ~ 16 GB [17060343808 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.18-17.12.35:147][163]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.18-17.12.35:179][167]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.18-17.12.35:179][167]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.18-17.12.35:179][167]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.18-17.12.35:179][167]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.18-17.12.35:179][167]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.18-17.12.35:179][167]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.18-17.12.35:179][167]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.18-17.12.35:179][167]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.18-17.12.35:179][167]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.18-17.12.35:179][167]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.18-17.12.35:214][171]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.18-17.12.35:215][171]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.18-17.12.35:222][172]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.18-17.12.35:239][174]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.18-17.12.35:250][175]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.18-17.12.35:266][177]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.18-17.12.35:282][179]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.18-17.12.35:290][180]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.18-17.12.35:300][181]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.18-17.12.35:342][186]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.18-17.12.35:342][186]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.18-17.12.35:358][188]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.18-17.12.35:358][188]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.18-17.12.35:374][190]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.18-17.12.35:382][191]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.18-17.12.35:399][193]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.18-17.12.35:406][194]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.18-17.12.35:406][194]UATHelper: Packaging (Windows (64-bit)):   LogTargetPlatformManager: Display: Building Assets For WindowsNoEditor
+[2021.01.18-17.12.35:418][195]UATHelper: Packaging (Windows (64-bit)):   LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.18-17.12.36:018][266]UATHelper: Packaging (Windows (64-bit)):   LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.18-17.12.36:620][338]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.18-17.12.36:688][346]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/eric/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.18-17.12.36:705][348]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.18-17.12.38:168][519]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.18-17.12.38:168][519]UATHelper: Packaging (Windows (64-bit)):   LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.18-17.12.38:860][600]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.18-17.12.38:860][600]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Mobile HDR setting 1
+[2021.01.18-17.12.38:860][600]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Creating asset registry
+[2021.01.18-17.12.39:105][629]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Discovering localized assets for cultures: en
+[2021.01.18-17.12.39:113][630]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Unable to read previous cook inisettings for platform WindowsNoEditor invalidating cook
+[2021.01.18-17.12.39:113][630]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Clearing all cooked content for platform WindowsNoEditor
+[2021.01.18-17.12.39:165][636]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Sandbox cleanup took 0.055 seconds for platforms WindowsNoEditor
+[2021.01.18-17.21.17:454][863]UATHelper: Packaging (Windows (64-bit)):   CookResults: Warning: Unable to find package for cooking /Game/Blueprints/bp_GameMode
+[2021.01.18-17.21.17:455][863]UATHelper: Packaging (Windows (64-bit)):   LogCook: Warning: Unable to find package for cooking /Game/Blueprints/bp_GameMode
+[2021.01.18-17.21.17:455][863]UATHelper: Packaging (Windows (64-bit)):   CookResults: Warning: Unable to find package for cooking /Game/MP_BoundsCollision
+[2021.01.18-17.21.17:455][863]UATHelper: Packaging (Windows (64-bit)):   LogCook: Warning: Unable to find package for cooking /Game/MP_BoundsCollision
+[2021.01.18-17.21.17:455][863]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 0 Packages Remain 221 Total 221
+[2021.01.18-17.21.17:455][863]PackagingResults: Warning: Unable to find package for cooking /Game/Blueprints/bp_GameMode
+[2021.01.18-17.21.17:455][863]PackagingResults: Warning: Unable to find package for cooking /Game/Blueprints/bp_GameMode
+[2021.01.18-17.21.17:455][863]PackagingResults: Warning: Unable to find package for cooking /Game/MP_BoundsCollision
+[2021.01.18-17.21.17:455][863]PackagingResults: Warning: Unable to find package for cooking /Game/MP_BoundsCollision
+[2021.01.18-17.21.17:874][909]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 50 Packages Remain 220 Total 270
+[2021.01.18-17.21.18:104][933]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 100 Packages Remain 219 Total 319
+[2021.01.18-17.21.18:373][962]UATHelper: Packaging (Windows (64-bit)):   LogPhysics: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Ice_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.247 Y=2.191 Z=0.000
+[2021.01.18-17.21.18:373][962]UATHelper: Packaging (Windows (64-bit)):   LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.01.18-17.21.18:373][962]UATHelper: Packaging (Windows (64-bit)):   LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.01.18-17.21.18:373][962]PackagingResults: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Ice_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.247 Y=2.191 Z=0.000
+[2021.01.18-17.21.18:373][962]PackagingResults: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.01.18-17.21.18:373][962]PackagingResults: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.01.18-17.21.18:382][963]UATHelper: Packaging (Windows (64-bit)):   LogPhysics: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Goal_2.w has a component set to zero, which will result in a bad body instance. Scale:X=1.269 Y=0.775 Z=0.000
+[2021.01.18-17.21.18:382][963]PackagingResults: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Goal_2.w has a component set to zero, which will result in a bad body instance. Scale:X=1.269 Y=0.775 Z=0.000
+[2021.01.18-17.21.18:390][964]UATHelper: Packaging (Windows (64-bit)):   LogPhysics: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Ice_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.247 Y=2.191 Z=0.000
+[2021.01.18-17.21.18:390][964]UATHelper: Packaging (Windows (64-bit)):   LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.01.18-17.21.18:390][964]UATHelper: Packaging (Windows (64-bit)):   LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.01.18-17.21.18:390][964]UATHelper: Packaging (Windows (64-bit)):   LogPhysics: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Ice_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.247 Y=2.191 Z=0.000
+[2021.01.18-17.21.18:390][964]UATHelper: Packaging (Windows (64-bit)):   LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.01.18-17.21.18:390][964]UATHelper: Packaging (Windows (64-bit)):   LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.01.18-17.21.18:390][964]PackagingResults: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Ice_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.247 Y=2.191 Z=0.000
+[2021.01.18-17.21.18:390][964]PackagingResults: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.01.18-17.21.18:390][964]PackagingResults: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.01.18-17.21.18:390][964]PackagingResults: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Ice_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.247 Y=2.191 Z=0.000
+[2021.01.18-17.21.18:390][964]PackagingResults: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.01.18-17.21.18:390][964]PackagingResults: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.01.18-17.21.18:406][966]UATHelper: Packaging (Windows (64-bit)):   LogPhysics: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Goal_2.w has a component set to zero, which will result in a bad body instance. Scale:X=1.269 Y=0.775 Z=0.000
+[2021.01.18-17.21.18:406][966]PackagingResults: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Goal_2.w has a component set to zero, which will result in a bad body instance. Scale:X=1.269 Y=0.775 Z=0.000
+[2021.01.18-17.21.18:460][972]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material Ice_M, compiling.
+[2021.01.18-17.21.18:627][990]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Emissive, compiling.
+[2021.01.18-17.21.18:684][996]UATHelper: Packaging (Windows (64-bit)):   LogMaterial: Display: Missing cached shader map for material M_Chrome, compiling.
+[2021.01.18-17.21.18:849][ 10]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 150 Packages Remain 226 Total 376
+[2021.01.18-17.21.19:065][ 18]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 200 Packages Remain 226 Total 426
+[2021.01.18-17.21.29:181][794]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 213 Packages Remain 225 Total 438
+[2021.01.18-17.21.29:181][794]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 219 Packages Remain 78 Total 297
+[2021.01.18-17.21.29:311][808]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 232 Packages Remain 77 Total 309
+[2021.01.18-17.21.29:361][813]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 235 Packages Remain 71 Total 306
+[2021.01.18-17.21.29:382][815]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 236 Packages Remain 56 Total 292
+[2021.01.18-17.21.29:411][818]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 238 Packages Remain 43 Total 281
+[2021.01.18-17.21.29:419][819]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 239 Packages Remain 40 Total 279
+[2021.01.18-17.21.29:419][819]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 240 Packages Remain 39 Total 279
+[2021.01.18-17.21.29:429][820]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 241 Packages Remain 38 Total 279
+[2021.01.18-17.21.29:438][821]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 242 Packages Remain 37 Total 279
+[2021.01.18-17.21.29:448][822]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 243 Packages Remain 36 Total 279
+[2021.01.18-17.21.29:457][823]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 244 Packages Remain 35 Total 279
+[2021.01.18-17.21.29:466][824]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 245 Packages Remain 34 Total 279
+[2021.01.18-17.21.29:475][825]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 246 Packages Remain 33 Total 279
+[2021.01.18-17.21.29:475][825]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 247 Packages Remain 32 Total 279
+[2021.01.18-17.21.29:482][826]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 248 Packages Remain 30 Total 278
+[2021.01.18-17.21.29:492][827]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 249 Packages Remain 29 Total 278
+[2021.01.18-17.21.29:499][828]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 250 Packages Remain 28 Total 278
+[2021.01.18-17.21.29:509][829]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 251 Packages Remain 27 Total 278
+[2021.01.18-17.21.29:516][830]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 252 Packages Remain 26 Total 278
+[2021.01.18-17.21.29:527][831]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cooked packages 253 Packages Remain 0 Total 253
+[2021.01.18-17.21.29:527][831]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Finishing up...
+[2021.01.18-17.21.29:527][831]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Saving BulkData manifest(s)...
+[2021.01.18-17.21.29:534][832]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done saving BulkData manifest(s)
+[2021.01.18-17.21.29:534][832]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - AnimBP:
+[2021.01.18-17.21.29:534][832]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Name, Children, Non-empty Functions (Empty Functions), Variables, FunctionUsage, VariableUsage
+[2021.01.18-17.21.29:534][832]UATHelper: Packaging (Windows (64-bit)):   LogBlueprintCodeGen: Display: Nativization Summary - Shared Variables From Graph: 0
+[2021.01.18-17.21.29:569][836]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display:
+[2021.01.18-17.21.29:569][836]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Shader Code Stats: PCD3D_SM5
+[2021.01.18-17.21.29:569][836]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2021.01.18-17.21.29:569][836]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Unique Shaders: 3400, Total Shaders: 11051
+[2021.01.18-17.21.29:569][836]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: Unique Shaders Size: 7.39mb, Total Shader Size: 7.39mb
+[2021.01.18-17.21.29:569][836]UATHelper: Packaging (Windows (64-bit)):   LogShaderLibrary: Display: =================
+[2021.01.18-17.21.29:636][844]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Saving asset registry.
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Generated asset registry num assets 239, size is 113.85kb
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogAssetRegistryGenerator: Display: Done saving asset registry.
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Cook by the book total time in tick 12.062851s total time 530.807617
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Peak Used virtual 820MB Peak Used physical 837MB
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Hierarchy Timer Information:
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:   Root: 0.000s (0)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     StartCookByTheBookTime: 518.594s (1)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CleanSandbox: 0.055s (1)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ProcessingAccessedStrings: 0.007s (1)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CollectFilesToCook: 0.199s (1)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         CookModificationDelegate: 0.000s (1)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         GeneratePackageNames: 0.001s (1)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       GenerateLongPackageName: 0.001s (1)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     TickCookOnTheSide: 12.056s (40)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       LoadPackage: 0.629s (40)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       CallBeginCacheForCookedPlatformData: 0.009s (40)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       PostLoadPackageFixup: 0.000s (40)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SavingPackages: 11.415s (25)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextPackage: 0.003s (253)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         PrecachePlatformDataForNextNextPackage: 0.511s (248)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         SaveCookedPackage: 10.888s (253)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           LoadPackage: 0.001s (253)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:           GEditorSavePackage: 10.880s (253)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             ConvertingBlueprints: 0.004s (253)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:             VerifyCanCookPackage: 0.001s (239)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         ClearAllCachedCookedPlatformData: 0.004s (253)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:         EnqueueUnsavedPackages: 0.000s (4)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     FinalizePackageStore: 0.008s (1)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     GeneratingBlueprintAssets: 0.004s (1)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingCurrentIniSettings: 0.053s (1)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       ProcessingAccessedStrings: 0.006s (1)
+[2021.01.18-17.21.29:672][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:     SavingAssetRegistry: 0.049s (1)
+[2021.01.18-17.21.29:673][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       BuildChunkManifest: 0.012s (1)
+[2021.01.18-17.21.29:673][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveManifests: 0.005s (1)
+[2021.01.18-17.21.29:673][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       SaveRealAssetRegistry: 0.031s (1)
+[2021.01.18-17.21.29:673][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display:       WriteCookerOpenOrder: 0.001s (1)
+[2021.01.18-17.21.29:673][848]UATHelper: Packaging (Windows (64-bit)):   LogCook: Display: Done!
+[2021.01.18-17.21.29:680][849]UATHelper: Packaging (Windows (64-bit)):   LogSavePackage: Display: Took 0.002696s to verify the EDL loading graph.
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Misc Cook Stats
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ===============
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NiagaraShader.Misc
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=0
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ShaderCompiler
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BlockingTimeSec=521.478548
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncCompileTimeSec=4114.708661
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderTimeSec=1.612597
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     GlobalBeginCompileShaderCalls=2841
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ProcessAsyncResultsTimeSec=514.932031
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader.Misc
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=2715
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MeshMaterial.Misc
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=123
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader.Misc
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ShadersCompiled=3
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Load
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesLoaded=161
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     LoadPackageTimeSec=1.074830
+[2021.01.18-17.21.29:699][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.Save
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumPackagesSaved=253
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavePackageTimeSec=10.821748
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsPresaveTimeSec=10.196787
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsTimeSec=0.105221
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     FullyLoadLoadersTimeSec=0.000118
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     ResetLoadersTimeSec=0.001270
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithOuter=0.001709
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     TagPackageExportsGetObjectsWithMarks=0.000321
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeImportsTimeSec=0.000000
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SortExportsSeekfreeInnerTimeSec=0.175674
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeExportsTimeSec=0.135240
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SerializeBulkDataTimeSec=0.005722
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     AsyncWriteTimeSec=0.000000
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     MBWritten=68.295115
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DifferentPackagesSizeMBPerAsset
+[2021.01.18-17.21.29:700][851]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.NumberOfDifferencesInPackagesPerAsset
+[2021.01.18-17.21.29:710][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.PackageDifferencesSizeMBPerAsset
+[2021.01.18-17.21.29:710][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Package.DiffTotal
+[2021.01.18-17.21.29:710][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferentPackages=0
+[2021.01.18-17.21.29:710][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     DifferentPackagesSizeMB=0.000000
+[2021.01.18-17.21.29:710][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     NumberOfDifferencesInPackages=0
+[2021.01.18-17.21.29:710][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     PackageDifferencesSizeMB=0.000000
+[2021.01.18-17.21.29:710][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: UnversionedProperties
+[2021.01.18-17.21.29:710][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedStructs=0
+[2021.01.18-17.21.29:710][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     SavedMB=0
+[2021.01.18-17.21.29:710][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     EquivalentTaggedMB=0
+[2021.01.18-17.21.29:710][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     CompressionRatio=-nan(ind)
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:     BitfieldWasteKB=0
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Cook Profile
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ============
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0.CookWallTimeSec=536.550512
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 0.StartupWallTimeSec=5.715639
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1.CookByTheBookTimeSec=530.818318
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0.StartCookByTheBookTimeSec=518.594520
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 0. 0.GameCookModificationDelegateTimeSec=0.000225
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1.TickCookOnTheSideTimeSec=12.212582
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 0.TickCookOnTheSideLoadPackagesTimeSec=0.630260
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1.TickCookOnTheSideSaveCookedPackageTimeSec=10.887603
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 2.TickCookOnTheSideBeginPackageCacheForCookedPlatformDataTimeSec=0.522231
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 1. 3.TickCookOnTheSideFinishPackageCacheForCookedPlatformDataTimeSec=0.006882
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 2.TickLoopGCTimeSec=0.000000
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 3.TickLoopRecompileShaderRequestsTimeSec=0.002829
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 4.TickLoopShaderProcessAsyncResultsTimeSec=0.000012
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 5.TickLoopProcessDeferredCommandsTimeSec=0.000231
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:  0. 1. 6.TickLoopTickCommandletStatsTimeSec=0.000016
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Summary Stats
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =================
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHits    =       289
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGets       =       517
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalGetHitPct  =  0.558994
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: LocalGetHitPct  =  0.048356
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SharedGetHitPct =  0.000000
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: OtherGetHitPct  =  0.510638
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GetMissPct      =  0.441006
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHits    =       229
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPuts       =       229
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: TotalPutHitPct  =  1.000000
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PutMissPct      =  0.000000
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display:
+[2021.01.18-17.21.29:711][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DDC Resource Stats
+[2021.01.18-17.21.29:712][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: =======================================================================================================
+[2021.01.18-17.21.29:712][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+[2021.01.18-17.21.29:712][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+[2021.01.18-17.21.29:712][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: GlobalShader                                    0.33                   0.33             1          0.01
+[2021.01.18-17.21.29:712][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: MaterialShader                                  0.26                   0.26             3          4.76
+[2021.01.18-17.21.29:712][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: StaticMesh                                      0.05                   0.05             0          1.62
+[2021.01.18-17.21.29:712][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Streaming)                             0.04                   0.00             0         12.77
+[2021.01.18-17.21.29:712][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: PhysX (BodySetup)                               0.02                   0.02             0          0.77
+[2021.01.18-17.21.29:712][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: NavCollision                                    0.00                   0.00             0          0.02
+[2021.01.18-17.21.29:712][852]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: Texture (Inline)                                0.00                   0.00             0         45.85
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: SoundWave                                       0.00                   0.00             0          0.07
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogCookCommandlet: Display: DistanceField                                   0.00                   0.00             0          0.00
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Warning/Error Summary (Unique only)
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: -----------------------------------
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: CookResults: Warning: Unable to find package for cooking /Game/Blueprints/bp_GameMode
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogCook: Warning: Unable to find package for cooking /Game/Blueprints/bp_GameMode
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: CookResults: Warning: Unable to find package for cooking /Game/MP_BoundsCollision
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogCook: Warning: Unable to find package for cooking /Game/MP_BoundsCollision
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogPhysics: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Ice_2.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=1.247 Y=2.191 Z=0.000
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: LogPhysics: Warning: Scale for /Game/MainLevel.MainLevel:PersistentLevel.bp_Goal_2.w has a component set to zero, which will result in a bad body instance. Scale:X=1.269 Y=0.775 Z=0.000
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2021.01.18-17.21.29:721][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display: Success - 0 error(s), 15 warning(s)
+[2021.01.18-17.21.29:722][853]UATHelper: Packaging (Windows (64-bit)):   LogInit: Display:
+[2021.01.18-17.21.29:722][853]UATHelper: Packaging (Windows (64-bit)):   
+[2021.01.18-17.21.29:722][853]UATHelper: Packaging (Windows (64-bit)):   Execution of commandlet took:  530.86 seconds
+[2021.01.18-17.21.29:907][873]UATHelper: Packaging (Windows (64-bit)):   LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.01.18-17.21.31:106][ 15]UATHelper: Packaging (Windows (64-bit)): Took 538.2164344s to run UE4Editor-Cmd.exe, ExitCode=0
+[2021.01.18-17.21.31:113][ 16]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND COMPLETED **********
+[2021.01.18-17.21.31:113][ 16]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND STARTED **********
+[2021.01.18-17.21.31:187][ 25]UATHelper: Packaging (Windows (64-bit)): Creating Staging Manifest...
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\BaseEditor.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\BaseEditorKeyBindings.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\BaseEditorPerProjectUserSettings.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\BaseEditorSettings.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\BaseLightmass.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\BasePakFileRules.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\ConsoleVariables.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\Localization\Category.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\Localization\Editor.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\Localization\EditorTutorials.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\Localization\Engine.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\Localization\Keywords.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\Localization\PortableObjectExport.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\Localization\PortableObjectImport.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\Localization\PropertyNames.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\Localization\RepairData.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\Localization\ToolTips.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\UE4\UE_4.25\Engine\Config\Localization\WordCount.ini
+[2021.01.18-17.21.31:388][ 49]UATHelper: Packaging (Windows (64-bit)): Excluding config file F:\Perforce\Eric.Galway_GBC\Eric.Galway\Air Hockey\Config\DefaultEditor.ini
+[2021.01.18-17.21.31:473][ 59]UATHelper: Packaging (Windows (64-bit)): Cleaning Stage Directory: F:\Perforce\Eric.Galway_GBC\Eric.Galway\Air Hockey\Saved\StagedBuilds\WindowsNoEditor
+[2021.01.18-17.21.31:509][ 63]UATHelper: Packaging (Windows (64-bit)): Creating pak using staging manifest.
+[2021.01.18-17.21.31:866][105]UATHelper: Packaging (Windows (64-bit)): Executing 1 UnrealPak command...
+[2021.01.18-17.21.36:233][617]UATHelper: Packaging (Windows (64-bit)): Waiting for child processes to complete (1/1)
+[2021.01.18-17.21.36:233][617]UATHelper: Packaging (Windows (64-bit)): Output from: "F:\Perforce\Eric.Galway_GBC\Eric.Galway\Air Hockey\Air Hockey.uproject" "F:\Perforce\Eric.Galway_GBC\Eric.Galway\Air Hockey\Saved\StagedBuilds\WindowsNoEditor\Air Hockey\Content\Paks\Air Hockey-WindowsNoEditor.pak" -create="C:\Users\eric\AppData\Roaming\Unreal Engine\AutomationTool\Logs\F+UE4+UE_4.25\PakList_Air Hockey-WindowsNoEditor.txt" -cryptokeys="F:\Perforce\Eric.Galway_GBC\Eric.Galway\Air Hockey\Saved\Cooked\WindowsNoEditor\Air Hockey\Metadata\Crypto.json" -order="F:\Perforce\Eric.Galway_GBC\Eric.Galway\Air Hockey\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log" -patchpaddingalign=2048 -platform=Windows -compressionformats=  -multiprocess -abslog="C:\Users\eric\AppData\Roaming\Unreal Engine\AutomationTool\Logs\F+UE4+UE_4.25\UnrealPak-Air Hockey-WindowsNoEditor-2021.01.18-12.21.31.txt"
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogCompression: Display: FCompression::GetCompressionFormat - Unable to find a module or plugin for compression format -multiprocess
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading response file C:\Users\eric\AppData\Roaming\Unreal Engine\AutomationTool\Logs\F+UE4+UE_4.25\PakList_Air Hockey-WindowsNoEditor.txt
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 1575 entries to add to pak file.
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Loading pak order file F:\Perforce\Eric.Galway_GBC\Eric.Galway\Air Hockey\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log...
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Finished loading pak order file F:\Perforce\Eric.Galway_GBC\Eric.Galway\Air Hockey\Build\WindowsNoEditor\FileOpenOrder\CookerOpenOrder.log.
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collecting files to add to pak file...
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Collected 1575 files in 0.01s.
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Creating pak F:\Perforce\Eric.Galway_GBC\Eric.Galway\Air Hockey\Saved\StagedBuilds\WindowsNoEditor\Air Hockey\Content\Paks\Air Hockey-WindowsNoEditor.pak.
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: DISABLING pak file index freezing (all must be true: HasPlatformInfo? true - TargetIs64Bit? true - NoRuntimeUnloading? true - Unencrypted? true, 'Windows' != 'Windows')
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Added 1575 files, 93787437 bytes total, time 3.07s.
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Encryption - DISABLED
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)):   LogPakFile: Display: Unreal pak executed in 3.128669 seconds
+[2021.01.18-17.21.36:234][617]UATHelper: Packaging (Windows (64-bit)): UnrealPak terminated with exit code 0
+[2021.01.18-17.21.36:250][619]UATHelper: Packaging (Windows (64-bit)): Copying NonUFSFiles to staging directory: F:\Perforce\Eric.Galway_GBC\Eric.Galway\Air Hockey\Saved\StagedBuilds\WindowsNoEditor
+[2021.01.18-17.21.36:935][700]UATHelper: Packaging (Windows (64-bit)): ********** STAGE COMMAND COMPLETED **********
+[2021.01.18-17.21.36:935][700]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND STARTED **********
+[2021.01.18-17.21.36:935][700]UATHelper: Packaging (Windows (64-bit)): ********** PACKAGE COMMAND COMPLETED **********
+[2021.01.18-17.21.36:935][700]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND STARTED **********
+[2021.01.18-17.21.36:935][700]UATHelper: Packaging (Windows (64-bit)): Archiving to F:/Perforce/Eric.Galway_GBC/Eric.Galway/Air Hockey
+[2021.01.18-17.21.37:665][786]UATHelper: Packaging (Windows (64-bit)): ********** ARCHIVE COMMAND COMPLETED **********
+[2021.01.18-17.21.37:672][787]UATHelper: Packaging (Windows (64-bit)): BUILD SUCCESSFUL
+[2021.01.18-17.21.37:673][787]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=0 (Success)
